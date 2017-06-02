@@ -20,6 +20,6 @@ chmod a+x $PYESSV_WRITER_HOME/sh/*.sh
 # STANDARD-SECTION: ALIASES
 # ###############################################################
 
-alias pyessv-write-wcrp-cmip6=$PYESSV_WRITER_HOME/sh/write_wcrp_cmip6.sh
+alias pyessv-write-ukcp-ukcp18=$PYESSV_WRITER_HOME/sh/write_ukcp_ukcp18.sh
 
 
