@@ -60,6 +60,12 @@ _COLLECTIONS_UKCP18 = {
     'activity_id': {
         'data_factory': None
     },
+    'collection': {
+        'data_factory': None
+    },
+    'country': {
+        'data_factory': None
+    },
     'experiment_id': {
         'data_factory': lambda obj, name: obj[name]
     },
@@ -75,6 +81,9 @@ _COLLECTIONS_UKCP18 = {
     'nominal_resolution': {
         'data_factory': None,
         'term_regex': r'^[a-z0-9\-\.]*$'
+    },
+    'project': {
+        'data_factory': None
     },
     'realm': {
         'data_factory': None
