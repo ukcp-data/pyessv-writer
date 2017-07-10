@@ -10,7 +10,7 @@ main()
 
 	declare source=$1
 
-	python $PYESSV_WRITER_HOME/sh/write_ukcp_ukcp18.py --source=$source
+	python $PYESSV_WRITER_HOME/sh/write_ukcp18_cvs.py --source=$source
 
 	log "UKCP18 vocabs written to "$HOME/.esdoc/pyessv-archive
 }
