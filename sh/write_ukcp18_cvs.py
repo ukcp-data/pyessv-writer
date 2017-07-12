@@ -66,6 +66,9 @@ _COLLECTIONS_UKCP18 = {
     'country': {
         'data_factory': None
     },
+    'dataset_id': {
+        'data_factory': None
+    },
     'experiment_id': {
         'data_factory': lambda obj, name: obj[name]
     },
@@ -82,6 +85,9 @@ _COLLECTIONS_UKCP18 = {
         'data_factory': None,
         'term_regex': r'^[a-z0-9\-\.]*$'
     },
+    'prob_type': {
+        'data_factory': None
+    },
     'project': {
         'data_factory': None
     },
@@ -91,10 +97,16 @@ _COLLECTIONS_UKCP18 = {
     'required_global_attributes': {
         'data_factory': None
     },
+    'scenario': {
+        'data_factory': None
+    },
     'source_id': {
         'data_factory': lambda obj, name: obj[name]
     },
     'source_type': {
+        'data_factory': None
+    },
+    'variable_id': {
         'data_factory': None
     }
 }
